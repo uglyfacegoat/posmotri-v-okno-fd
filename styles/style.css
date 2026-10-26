@@ -108,7 +108,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   gap: 30px;
 }
 
@@ -179,7 +179,7 @@ ol {
   font-weight: 400;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   overflow: hidden;
 }
 
@@ -236,7 +236,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover .search-form__label-text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -256,17 +256,16 @@ ol {
   background-color: transparent;
   font-size: 18px;
   font-weight: 700;
+  min-height: 34px;
 }
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  min-height: 34px;
 }
 
 .button:hover {
